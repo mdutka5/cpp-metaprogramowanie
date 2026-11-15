@@ -1,0 +1,9 @@
+build/
+build*/
+cmake-build-*/
+.idea/
+.vscode/
+.DS_Store
+*.o
+*.out
+program
