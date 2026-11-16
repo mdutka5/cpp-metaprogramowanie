@@ -8,6 +8,9 @@
  *   Sposób odwracania zależy od rozmiaru typu, a rozmiar jest znany przy kompilacji,
  *   więc wybierzesz go przez if constexpr (sizeof(T) == ...), jak w materiałach.
  *
+ * Co to big/little-edian: 
+ *   https://dev.to/amanprasad/understanding-endianness-little-endian-vs-big-endian-31e
+ *
  * Cel:
  *   Jeden szablon byteSwap<T> działa dla liczb bez znaku o rozmiarze 1, 2, 4 i 8 bajtów,
  *   a dla innych typów kompilator zgłasza czytelny błąd.
