@@ -99,6 +99,9 @@ nwd = 12, nww = 840
 
 Pliki PNG i protokoły sieciowe zapisują liczby w kolejności **big-endian**: najstarszy bajt jest pierwszy. Procesory x86 i ARM trzymają liczby w **little-endian**: najmłodszy bajt jest pierwszy. Po odczycie liczby z pliku trzeba więc odwrócić kolejność jej bajtów:
 
+### Co to big/little-edian: 
+https://dev.to/amanprasad/understanding-endianness-little-endian-vs-big-endian-31e
+
 ```text
 0x1234     -> 0x3412
 0x12345678 -> 0x78563412
